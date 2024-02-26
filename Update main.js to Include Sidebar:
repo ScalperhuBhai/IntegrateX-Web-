@@ -1,0 +1,8 @@
+// src/scripts/main.js
+
+// Import the sidebar module
+import './sidebar';
+
+// Your existing main script logic goes here
+// For example:
+// console.log('Main script loaded');
