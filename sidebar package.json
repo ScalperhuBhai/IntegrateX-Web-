@@ -1,0 +1,14 @@
+{
+  "name": "integrateX-web-app",
+  "version": "1.0.0",
+  "description": "Web app showcasing integration capabilities",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "pkgx serve",
+    "build": "pkgx build",
+    "install": "pkgx install"
+  },
+  "dependencies": {
+    "integration-widget": "^1.0.0"
+  }
+}
