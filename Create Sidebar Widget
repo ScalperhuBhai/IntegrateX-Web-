@@ -1,0 +1,25 @@
+// src/scripts/sidebar.js
+
+import IntegrationWidget from 'integration-widget';
+
+const initSidebar = () => {
+  // Initialize and configure the sidebar widget
+  const sidebar = new IntegrationWidget({
+    // Add configuration options for the widget
+    // For example:
+    // position: 'left',
+    // theme: 'dark',
+  });
+
+  // Add event listeners or any other customization
+  // For example:
+  // sidebar.on('integrationClicked', (data) => {
+  //   console.log('Integration clicked:', data);
+  // });
+
+  // Append the widget to the document
+  document.body.appendChild(sidebar.render());
+};
+
+// Call the function to initialize the sidebar when the DOM is ready
+document.addEventListener('DOMContentLoaded', initSidebar);
