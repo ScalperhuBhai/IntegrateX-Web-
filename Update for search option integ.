@@ -1,0 +1,12 @@
+integrateX-web-app/
+|-- src/
+|   |-- index.html
+|   |-- styles/
+|   |   |-- main.css
+|   |-- scripts/
+|       |-- main.js
+|       |-- sidebar.js
+|       |-- search.js
+|-- package.json
+|-- README.md
+|-- .gitignore

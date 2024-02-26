@@ -1,0 +1,8 @@
+// src/scripts/main.js
+
+// Import the search module
+import './search';
+
+// Your existing main script logic goes here
+// For example:
+// console.log('Main script loaded');
