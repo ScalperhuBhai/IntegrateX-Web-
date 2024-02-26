@@ -1,0 +1,24 @@
+// src/scripts/theme-slider.js
+
+import ThemeSliderWidget from 'theme-slider-widget';
+
+const initThemeSlider = () => {
+  // Initialize and configure the theme slider widget
+  const themeSlider = new ThemeSliderWidget({
+    // Add configuration options for the widget
+    // For example:
+    // initialTheme: 'light',
+  });
+
+  // Add event listeners or any other customization
+  // For example:
+  // themeSlider.on('themeChanged', (theme) => {
+  //   console.log('Theme changed to:', theme);
+  // });
+
+  // Append the widget to the document
+  document.body.appendChild(themeSlider.render());
+};
+
+// Call the function to initialize the theme slider when the DOM is ready
+document.addEventListener('DOMContentLoaded', initThemeSlider);
